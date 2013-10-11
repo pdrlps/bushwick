@@ -56,7 +56,7 @@ function relative_time($date) {
 }
 
 function twitter_account() {
-	return site_meta('twitter', 'molovo');
+	return site_meta('twitter', 'pedrolopes');
 }
 
 function twitter_url() {

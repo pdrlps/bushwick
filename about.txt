@@ -1,5 +1,5 @@
-Theme name:    Bushwick
-Description:   A theme. For Blogz and ting.
-Author name:   James Dinsdale
-Author site:   http://molovo.co.uk
+Theme name:    Infinity, based on Bushwick
+Description:   Pedrolopes.net Infinity theme, based on Bushwick
+Author name:   Pedro Lopes, based on original work by James Dinsdale
+Author site:   http://pedrolopes.net
 License:       http://licence.visualidiot.com

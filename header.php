@@ -11,7 +11,7 @@
 		<!--<link rel="stylesheet" href="<?php echo theme_url('/fonts/merriweather-fontfacekit/stylesheet.css'); ?>">-->
 
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
-		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">
+		<link rel="shortcut icon" href="favicon.ico">
 
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900' rel='stylesheet' type='text/css'>
 
@@ -39,7 +39,7 @@
 
 		<style>
 			.sidebar {
-				background: url("<?php echo theme_url('img/sidebar-bg2.jpg'); ?>") center no-repeat;
+				background: url("<?php echo theme_url('img/sidebar-home.jpg'); ?>") center no-repeat;
 				background-size: cover;
 				color: white;
 				text-shadow: 0px 1px 5px rgba(0,0,0,0.3);
@@ -157,7 +157,7 @@
 					<?php endwhile; ?>
 				<?php endif; ?>
 
-				<a href="#menu" class="menu icon">M</a>
+				<a href="#menu" class="menu icon">&#9776;</a>
 			</nav>
 
 			<div class="container">
@@ -173,7 +173,7 @@
 							<a<?php echo (article_next_url() ? ' href="' . article_next_url() . '"' : ''); ?>>&rarr;</a>
 						</p>
 					<?php else: ?>
-						<h1><?php echo site_name(); ?></h1>
+						<h1 class="home"><?php echo site_name(); ?></h1>
 						<p><?php echo site_description(); ?></p>
 					<?php endif; ?>
 				</div>
@@ -208,7 +208,7 @@
 					</aside>
 
 					<div class="grid 1of1 ralign">
-						<a href="#menu" class="menu icon">M</a>
+						<a href="#menu" class="menu icon">&#9776;</a>
 					</div>
 
 				</div>
@@ -232,7 +232,7 @@
 							<?php endwhile; ?>
 						<?php endif; ?>
 
-						<a href="#menu" class="menu icon">M</a>
+						<a href="#menu" class="menu icon">&#9776;</a>
 					</nav>
 				</div>
 			</header>

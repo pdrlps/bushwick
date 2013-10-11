@@ -1,4 +1,4 @@
-# Bushwick
+# Infinity, based on Bushwick
 
 ### A theme for Anchor CMS
 

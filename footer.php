@@ -5,12 +5,8 @@
 	                <div class="grid 1of3">
 	                	<small>
 	                		<p>
-		                		&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?>.<br />
+		                		&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?><br />
 		                		All rights reserved.
-	                		</p>
-	                		<p>
-
-		                		Powered by <a href="http://anchorcms.com" target="_blank">Anchor CMS</a>
 	                		</p>
 	                	</small>
 	                </div>
@@ -18,15 +14,11 @@
 					<div class="grid 1of3 offset-4">
 						<small>
 			                <ul role="navigation">
-			                    <li><a href="<?php echo rss_url(); ?>">RSS</a></li>
+			                    <li><a href="<?php echo rss_url(); ?>" class="rss"> RSS</a></li>
 			                    <?php if(twitter_account()): ?>
-			                    <li><a href="<?php echo twitter_url(); ?>" target="_blank">@<?php echo twitter_account(); ?></a></li>
-			                    <?php endif; ?>
-
-			                    <li><a href="<?php echo base_url('admin'); ?>" title="Administer your site!">Admin area</a></li>
-
-
-			                </ul>
+			                    <li><a href="<?php echo twitter_url(); ?>" target="_blank" class="twitter"> @<?php echo twitter_account(); ?></a></li>
+			                    <li><a href="https://facebook.com/pdrlps" target="_blank" class="facebook"> pdrlps</a></li>
+			                    <?php endif; ?></ul>
 			            </small>
 	        		</div>
 	        	</div>
