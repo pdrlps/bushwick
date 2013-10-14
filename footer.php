@@ -5,8 +5,7 @@
 	                <div class="grid 1of3">
 	                	<small>
 	                		<p>
-		                		&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?><br />
-		                		All rights reserved.
+		                		&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?> .
 	                		</p>
 	                	</small>
 	                </div>
@@ -15,10 +14,7 @@
 						<small>
 			                <ul role="navigation">
 			                    <li><a href="<?php echo rss_url(); ?>" class="rss"> RSS</a></li>
-			                    <?php if(twitter_account()): ?>
-			                    <li><a href="<?php echo twitter_url(); ?>" target="_blank" class="twitter"> @<?php echo twitter_account(); ?></a></li>
-			                    <li><a href="https://facebook.com/pdrlps" target="_blank" class="facebook"> pdrlps</a></li>
-			                    <?php endif; ?></ul>
+							</ul>
 			            </small>
 	        		</div>
 	        	</div>

@@ -504,21 +504,99 @@ ul.commentlist li {
 a.rss:before {
 	font-family: 'entypo';
 	content: '\E73A';
-	font-size: 2em;
+	font-size: 200%;
+	vertical-align: bottom;
 	
 }
 
 a.twitter:before {
 	font-family: 'entypo-social';
 	content: '\F309';
-	font-size: 1.6em;
+	font-size: 200%;
+	vertical-align: bottom;
 }
 
 
 a.facebook:before {
 	font-family: 'entypo-social';
-	content: '\F30C';
-	font-size: 1.6em;
+	content: '\F30E';
+	font-size: 200%;
+	vertical-align: bottom;
+}
+
+a.github:before {
+	font-family: 'entypo-social';
+	content: '\F300';
+	font-size: 200%;
+	vertical-align: bottom;
+}
+
+a.flickr:before {
+	font-family: 'entypo-social';
+	content: '\F303';
+	font-size: 200%;
+	vertical-align: bottom;
+}
+
+a.gplus:before {
+	font-family: 'entypo-social';
+	content: '\F30F';
+	font-size: 200%;
+	vertical-align: bottom;
+}
+
+a.linkedin:before {
+	font-family: 'entypo-social';
+	content: '\F318';
+	font-size: 200%;
+	vertical-align: bottom;
+}
+
+a.medium:after {
+	font-family: 'entypo';
+	content: '\E75E';
+	font-size: 200%;
+	vertical-align: bottom;
+	margin-left: 4px;
+}
+
+a.mail:after {
+	font-family: 'entypo';
+	content: '\1F53F';
+	font-size: 150%;
+	margin-left: 4px;
+}
+
+a.work, a.project, a.read {
+		padding-left: 3em;
+		position: relative;
+		}
+
+a.work:before {
+	content: '\2795';
+	font-family: "entypo";
+		position: absolute;
+		top: .13em;
+		left: .5em;
+		font-size: 2em;
+}
+
+a.project:before {
+	content: '\23F6';
+	font-family: "entypo";
+		position: absolute;
+		top: .13em;
+		left: .5em;
+		font-size: 2em;
+}
+
+a.read:before {
+	content: '\25B8';
+	font-family: "entypo";
+		position: absolute;
+		top: .13em;
+		left: .5em;
+		font-size: 2em;
 }
 
 @font-face {

@@ -148,7 +148,6 @@
 			<nav class="grid 1of1 sidebar-nav">
 				<a href="<?php echo base_url(); ?>" class="home <?php echo (is_homepage() ? 'current' : '') ?>">HOME</a>
 
-				<?php echo $latestPostLink; ?>
 
 				<?php if(has_menu_items()): ?>
 					<?php while(menu_items()): ?>
@@ -156,6 +155,8 @@
 						</a>
 					<?php endwhile; ?>
 				<?php endif; ?>
+						<a href="https://facebook.com/pdrlps" target="_blank" class="facebook"></a>
+						<a href="https://twitter.com/pedrolopes" target="_blank" class="twitter"></a>
 
 				<a href="#menu" class="menu icon">&#9776;</a>
 			</nav>
@@ -224,13 +225,20 @@
 			<header id="top">
 				<div class="container">
 					<nav class="grid 1of1 top-nav">
-					    <?php echo $latestPostLink; ?>
+
 
 						<?php if(has_menu_items()): ?>
 							<?php while(menu_items()): ?>
 								<a href="<?php echo menu_url(); ?>" class="<?php echo (menu_active() ? 'current' : '') ?>" title="<?php echo menu_title(); ?>"><?php echo menu_name(); ?></a>
 							<?php endwhile; ?>
 						<?php endif; ?>
+						<a href="https://facebook.com/pdrlps" target="_blank" class="facebook"></a>
+						<a href="http://www.flickr.com/photos/pdrlps/" target="_blank" class="flickr"></a>
+						<a href="https://github.com/pdrlps" target="_blank" class="github"></a>
+						<a href="https://plus.google.com/107047888336850451581" target="_blank" class="gplus"></a>
+						<a href="http://linkedin.com/in/pdrlps/" target="_blank" class="linkedin"></a>
+						<a href="https://twitter.com/pedrolopes" target="_blank" class="twitter"></a>
+						
 
 						<a href="#menu" class="menu icon">&#9776;</a>
 					</nav>

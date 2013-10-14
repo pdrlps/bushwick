@@ -22,7 +22,7 @@
 							</footer>
 						</div>
 						<div class="grid 1of3 stick-to-grid remove-padding center">
-							<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>" class="buttonlink">Read this Article</a>
+							<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>" class="buttonlink read">Read</a>
 						</div>
 					</article>
 				</li>
