@@ -11,7 +11,7 @@
 		<!--<link rel="stylesheet" href="<?php echo theme_url('/fonts/merriweather-fontfacekit/stylesheet.css'); ?>">-->
 
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="http://pedrolopes.net/favicon.ico" />
 
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900' rel='stylesheet' type='text/css'>
 
@@ -25,7 +25,7 @@
 	    <meta property="og:title" content="<?php echo site_name(); ?>">
 	    <meta property="og:type" content="website">
 	    <meta property="og:url" content="<?php echo current_url(); ?>">
-	    <meta property="og:image" content="<?php echo theme_url('img/og_image.gif'); ?>">
+	    <meta property="og:image" content="<?php echo theme_url('img/og_image.png'); ?>">
 	    <meta property="og:site_name" content="<?php echo site_name(); ?>">
 	    <meta property="og:description" content="<?php echo site_description(); ?>">
 
@@ -190,7 +190,7 @@
 
 						<form id="search" action="<?php echo search_url(); ?>" method="post">
 							<label for="term">Search my blog:</label>
-							<input type="text" id="term" name="term" placeholder="<?php echo (search_term() ? search_term() : 'To search, type and hit enter&hellip;'); ?>" />
+							<input type="text" id="term" name="term" placeholder="<?php echo (search_term() ? search_term() : 'To search post titles, type and hit enter&hellip;'); ?>" />
 							<button type="submit" value="Go">Go</button>
 						</form>
 					</aside>
