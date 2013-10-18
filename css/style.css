@@ -509,6 +509,15 @@ a.rss:before {
 	
 }
 
+a.subscribe:before {
+	font-family: 'entypo';
+	content: '\1F516';
+	font-size: 200%;
+	vertical-align: bottom;
+	
+}
+
+
 a.twitter:before {
 	font-family: 'entypo-social';
 	content: '\F309';
@@ -598,6 +607,38 @@ a.read:before {
 		left: .5em;
 		font-size: 2em;
 }
+
+/** Subscription page style **/
+#subscribe input:not([type="submit"]) {
+		width: 100%;
+		padding: .75em;
+		font-size: .6rem;
+		border-radius: 3px;
+		border: 1px solid rgba(51,71,61,0.1);
+	}
+#subscribe button {
+	height: auto;
+	padding: .75em 1.5em;
+}
+	#subscribe button[type="submit"] {
+		background: #C38596;
+	}
+	#subscribe button[type="submit"]:after {
+	font-family: 'entypo';
+	content: '\1F516';
+	font-size: 150%;
+	margin-left: 8px;
+	
+	}
+	#subscribe button[type="submit"]:hover {
+		background: #68ADC3;
+	}
+	 #subscribe label {
+		display: block;
+		height: 0px;
+		overflow: hidden;
+		text-indent: 100%;
+	}
 
 @font-face {
 	font-family: 'entypo';

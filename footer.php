@@ -13,7 +13,8 @@
 					<div class="grid 1of3 offset-4">
 						<small>
 			                <ul role="navigation">
-			                    <li><a href="<?php echo rss_url(); ?>" class="rss"> RSS</a></li>
+			                    <li><a href="<?php echo rss_url(); ?>" class="rss"> RSS</a></li>			                    
+			                    <li><a href="http://pedrolopes.net/subscribe" class="subscribe"> Subscribe</a></li>
 							</ul>
 			            </small>
 	        		</div>
